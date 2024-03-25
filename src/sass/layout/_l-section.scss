@@ -1,0 +1,8 @@
+@use "global" as *;
+
+.l-section {
+  padding: rem(60) 0 rem(80);
+  @media screen and (max-width: 767px) {
+    padding: rem(40) 0 rem(50);
+  }
+}
