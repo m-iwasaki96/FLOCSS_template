@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.c-link {
+  position: relative;
+  line-height: 1;
+}
+
+.c-link::after {
+  position: absolute;
+  content: "";
+  width: 1em;
+  height: 1em;
+  right: -1em;
+  top: 0.3em;
+  background: url(../images/common/) center center/contain no-repeat;
+}

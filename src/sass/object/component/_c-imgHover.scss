@@ -1,0 +1,30 @@
+@use "global" as *;
+
+.c-imgHover {
+  position: relative;
+}
+
+.c-imgHover img {
+  width: rem(30);
+  transition: 0.5s opacity;
+}
+
+.c-imgHover img:nth-of-type(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+
+@media screen and (min-width: 768px) {
+  .c-imgHover:hover img:nth-of-type(1) {
+    opacity: 0;
+    transition: 0.5s opacity;
+  }
+
+  .c-imgHover:hover img:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.5s opacity;
+  }
+}
