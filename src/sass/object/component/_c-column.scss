@@ -12,7 +12,7 @@
 
 .c-column2--gap60 {
   gap: rem(60);
-  @media screen and (max-width: 767px) {
+  @include mq(md) {
     gap: rem(40);
   }
 }
