@@ -1,0 +1,5 @@
+@use "global" as *;
+
+.u-shadow {
+  box-shadow: 0 0 13px rgba($color: red, $alpha: .5);
+}
