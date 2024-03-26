@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.c-headline {
+  border-left: rem(5) solid black;
+  font-size: rem(24);
+  font-weight: $bold;
+  color: black;
+  padding-left: rem(20);
+  @include mq(md) {
+    font-size: rem(18);
+    padding-left: rem(10);
+  }
+}
