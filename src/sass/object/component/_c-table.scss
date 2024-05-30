@@ -1,0 +1,23 @@
+@use "global" as *;
+
+.c-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #333;
+}
+
+.c-table__data,
+.c-table__head {
+  width: 50%;
+  padding: rem(10);
+  border: 1px solid #333;
+}
+
+.c-table__head {
+  font-size: rem(16);
+  background-color: #eee;
+}
+
+.c-table__data {
+  font-size: rem(24);
+}
