@@ -9,15 +9,15 @@
 .c-table__data,
 .c-table__head {
   width: 50%;
-  padding: rem(10);
+  padding: prem(10);
   border: 1px solid #333;
 }
 
 .c-table__head {
-  font-size: rem(16);
+  font-size: prem(16);
   background-color: #eee;
 }
 
 .c-table__data {
-  font-size: rem(24);
+  font-size: prem(24);
 }

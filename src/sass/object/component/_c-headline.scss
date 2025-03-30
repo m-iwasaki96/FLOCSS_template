@@ -2,12 +2,12 @@
 
 .c-headline {
   border-left: 5px solid black;
-  font-size: rem(24);
+  font-size: prem(24);
   font-weight: $bold;
   color: black;
-  padding-left: rem(20);
+  padding-left: prem(20);
   @include mq("md") {
-    font-size: rem(18);
-    padding-left: rem(10);
+    font-size: prem(18);
+    padding-left: prem(10);
   }
 }

@@ -1,14 +1,14 @@
 @use "global"as *;
 
 .u-base01 {
-  font-size: rem(16);
+  font-size: prem(16);
   font-style: normal;
   font-weight: $regular;
   line-height: calc(24 / 16);
 }
 
 .u-base02 {
-  font-size: rem(16);
+  font-size: prem(16);
   font-style: normal;
   font-weight: $regular;
   line-height: 1.88;
@@ -16,21 +16,21 @@
 
 .u-base01--sp14 {
   @include mq("md") {
-    font-size: rem(14);
+    font-size: prem(14);
     line-height: normal;
   }
 }
 
 .u-base01--sp13 {
   @include mq("md") {
-    font-size: rem(13);
+    font-size: prem(13);
     line-height: normal;
   }
 }
 
 .u-base01--sp12 {
   @include mq("md") {
-    font-size: rem(12);
+    font-size: prem(12);
     line-height: normal;
   }
 }
